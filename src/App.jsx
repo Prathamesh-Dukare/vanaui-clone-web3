@@ -1,15 +1,20 @@
 import './App.css';
+import Nav from './components/Nav';
 
 function App() {
   return (
     <div className="main-wrapper">
       <header>
-        <h1 class="text-3xl font-bold underline text-red-400">
-          Hello world!
-        </h1>
+        <Nav/>
       </header>
-      <main></main>
-      <footer></footer>
+
+      <main>
+
+      </main>
+
+      <footer>
+        
+      </footer>
     </div>
   );
 }
