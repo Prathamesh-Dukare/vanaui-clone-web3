@@ -3,7 +3,7 @@ import Nav from './components/Nav';
 
 function App() {
   return (
-    <div className="main-wrapper">
+    <div className="main-wrapper bg-primary font-sans">
       <header>
         <Nav/>
       </header>
@@ -13,7 +13,7 @@ function App() {
       </main>
 
       <footer>
-        
+
       </footer>
     </div>
   );
