@@ -1,7 +1,7 @@
 import React from 'react'
-import vanaLogo from "../assets/vana logo black.svg"
-import instaLogo from "../assets/instagram-outline-icon.svg"
-import twitterLogo from "../assets/twitter-outline-icon.svg"
+import vanaLogo from "../../assets/vana logo black.svg"
+import instaLogo from "../../assets/instagram-outline-icon.svg"
+import twitterLogo from "../../assets/twitter-outline-icon.svg"
 
 export default function Nav() {
     return (

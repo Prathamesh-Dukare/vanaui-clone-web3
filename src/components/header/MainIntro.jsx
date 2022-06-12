@@ -1,8 +1,8 @@
 import React from "react"
-import heroEmailImg from "../assets/hero-email-signup.svg"
-import checkImg from "../assets/CircleWavyCheck.svg"
-import orgImgMobile from "../assets/hero mobile illustration new.png"
-import orgImg_500 from "../assets/Vana vibe shift illtration new-p-500.png"
+import heroEmailImg from "../../assets/hero-email-signup.svg"
+import checkImg from "../../assets/CircleWavyCheck.svg"
+import orgImgMobile from "../../assets/hero mobile illustration new.png"
+import orgImg_500 from "../../assets/Vana vibe shift illtration new-p-500.png"
 
 export default function MainIntro() {
     return (
@@ -27,7 +27,7 @@ export default function MainIntro() {
 
                 <div className="organization px-3 py-6">
                     <img className="mobile:hidden ww-full" src={orgImgMobile} alt="Organization and data scientists" />
-                    <img className="ww-full" src={orgImg_500} alt="Organization and data scientists" />
+                    <img className="hidden mobile:block ww-full" src={orgImg_500} alt="Organization and data scientists" />
                 </div>
             </section>
         </>

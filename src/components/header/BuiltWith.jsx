@@ -1,7 +1,7 @@
 import React from 'react'
-import celoIcon from "../assets/Celo logo.svg"
-import metaMaskIcon from "../assets/Metamask logo medium.svg"
-import IPFSIcon from "../assets/IPFS logo.svg"
+import celoIcon from "../../assets/Celo logo.svg"
+import metaMaskIcon from "../../assets/Metamask logo medium.svg"
+import IPFSIcon from "../../assets/IPFS logo.svg"
 
 export default function BuiltWith() {
     return (

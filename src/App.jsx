@@ -1,7 +1,7 @@
 import './App.css';
-import BuiltWith from './components/BuiltWith';
-import MainIntro from './components/MainIntro';
-import Nav from './components/Nav';
+import BuiltWith from './components/header/BuiltWith';
+import MainIntro from './components/header/MainIntro';
+import Nav from './components/header/Nav';
 
 function App() {
   return (
