@@ -4,7 +4,12 @@ module.exports = {
   ],
   theme: {
     screens:{
-      'mobile':"480px"
+      'mobile':"480px",
+      sm: '640px',
+      md: '768px',
+      lg: '1024px',
+      xl: '1280px',
+      '2xl': '1536px'
     },
     fontFamily: {
       // sans: ["Syne", "sans-serif"],
@@ -13,7 +18,10 @@ module.exports = {
       colors:{
         primary:"#fff9ea",
         secondary:"#ff7f32",
-        accent:"#10393b"
+        'secondary-light':"#f99e48",
+        accent:"#10393b",
+        'accent-bg':"#f5f8fa"
+
       }
     },
   },
