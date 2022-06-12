@@ -19,8 +19,8 @@ function App() {
 
       <main className='mb-36'>
         <MainInfo/>
-        {/* <Timeline/>
-        <CareerCard/> */}
+        {/* <Timeline/> */}
+        <CareerCard/>
       </main>
 
       <footer>
