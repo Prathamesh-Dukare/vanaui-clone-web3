@@ -1,4 +1,5 @@
 import './App.css';
+import MainIntro from './components/MainIntro';
 import Nav from './components/Nav';
 
 function App() {
@@ -6,6 +7,8 @@ function App() {
     <div className="main-wrapper bg-primary font-sans">
       <header>
         <Nav/>
+        <MainIntro/>
+        
       </header>
 
       <main>
