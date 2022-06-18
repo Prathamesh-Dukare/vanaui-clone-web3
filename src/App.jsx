@@ -5,6 +5,7 @@ import Nav from './components/header/Nav';
 import MainInfo from './components/main/MainInfo';
 import Timeline from './components/main/Timeline';
 import CareerCard from './components/main/CareerCard';
+import MainFooter from './components/footer/MainFooter';
 
 function App() {
   return (
@@ -17,15 +18,15 @@ function App() {
         <BuiltWith />
       </header>
 
-      <main className='mb-36'>
+      <main className=''>
         <MainInfo/>
         {/* <Timeline/> */}
         <CareerCard/>
         
       </main>
 
-      <footer>
-
+      <footer className='mb-36'>
+        <MainFooter/>
       </footer>
     </div>
   );
