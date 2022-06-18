@@ -21,6 +21,7 @@ function App() {
         <MainInfo/>
         {/* <Timeline/> */}
         <CareerCard/>
+        
       </main>
 
       <footer>
