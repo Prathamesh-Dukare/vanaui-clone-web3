@@ -1,5 +1,9 @@
 import React from 'react'
 import VanaLogoWhite from "../../assets/Vana Logo white.svg"
+import fbLogo from "../../assets/Vana Logo white.svg"
+import instaLogo from "../../assets/instagram-outline-icon.svg"
+import twitterLogo from "../../assets/twitter-outline-icon.svg"
+import tiktokLogo from "../../assets/tiktok icon.svg"
 
 export default function MainFooter() {
     return (
@@ -20,7 +24,45 @@ export default function MainFooter() {
                 </div>
 
                 <div className="footer-navigation">
-h
+                    <div className="navigation-links">
+                        <h3>Contact Us</h3>
+                        <div className="links">
+                            <a href="mailto:support@vana.xyz">support@vana.xyz</a>
+                            <a href="mailto:careers@vana.xyz">careers@vana.xyz</a>
+                            <a href="mailto:press@vana.xyz">press@vana.xyz</a>
+                        </div>
+                    </div>
+
+                    <div className="navigation-links">
+                        <h3>Company</h3>
+                        <div className="links">
+                            <a href="/about">About</a>
+                            <a href="/careers">careers</a>
+                        </div>
+                    </div>
+
+                    <div className="navigation-links">
+                        <h3>Social</h3>
+                        <div className="links">
+                            <a href="/">
+                                <img src={fbLogo} alt="fb logo" />
+                                <span>Facebook</span>
+                            </a>
+                            <a href="/">
+                                <img src={instaLogo} alt="insta logo" />
+                                <span>Instagram</span>
+                            </a>
+                            <a href="/">
+                                <img src={twitterLogo} alt="twitter logo" />
+                                <span>Twitter</span>
+                            </a>
+                            <a href="/">
+                                <img src={tiktokLogo} alt="tiktok logo" />
+                                <span>TikTok</span>
+                            </a>
+                           
+                        </div>
+                    </div>
                 </div>
 
             </div>
